@@ -1,0 +1,14 @@
+1. git config --global user.name ""    --> set name
+2. git config --global user.email ""   --> set email
+3. git config                          --> Check configuration
+
+4. git clone <url> --> copy repo to local system
+5. git status --> Track the status of project or detect the status of files.
+	1. modified --> File has been edited or modified.
+	2. untracked --> New file hasa been created and didnot added to git.
+	3. staged --> file has been added to github, but not commited.
+	4. unmodified --> unchanged files
+
+6. git add [filename OR .] --> changes have been staged and ready to be commited.
+7. git commit -m "any message" --> Record has been added to github.
+8. git push origin main --> upload local repo code to remote repo.
