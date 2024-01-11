@@ -12,3 +12,12 @@
 6. git add [filename OR .] --> changes have been staged and ready to be commited.
 7. git commit -m "any message" --> Record has been added to github.
 8. git push origin main --> upload local repo code to remote repo.
+	1. origin is the name of copy.
+	2. main is name of branch.
+9. git init --> initialize git
+10. git remote add origin <url> --> add remote repo for push
+11. git remote -v --> to verify or check the repo.
+12. git branch --> checks branch
+13. git branch -M branch --> rename branch
+14. git push origin main --> push to remote repo
+15. git push -u origin main -->  setting upstream for future....we need to write only git push on future.
